@@ -33,7 +33,7 @@ export default function FinalCTA({ onCheckout }) {
 
       if (response.ok) {
         setStatus("success");
-        setMsg("Thanks for joining! Check your inbox.");
+        setMsg("Thanks for joining! You are in.");
         setMsgColor("var(--green)");
         setBorderColor("var(--green)");
         setEmail("");
