@@ -1107,6 +1107,7 @@ body::after {
     var(--cyan-soft),
     transparent 70%
   );
+  pointer-events: none;
 }
 .vid-wrap:hover {
   border-color: var(--border-hover);
