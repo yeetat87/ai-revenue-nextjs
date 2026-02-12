@@ -29,7 +29,7 @@ export default function Home() {
   // Directly redirect to Stripe instead of opening modal
   const openCheckout = () => {
     // Using the link from CheckoutModal
-    window.open("https://buy.stripe.com/YOUR_PAYMENT_LINK_HERE", "_blank");
+    window.open("https://buy.stripe.com/9B6eVc2U03gFeajdsU5Rm02", "_blank");
   };
 
   const closeCheckout = () => setCheckoutOpen(false);
