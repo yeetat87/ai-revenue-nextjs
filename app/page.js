@@ -65,7 +65,6 @@ export default function Home() {
   return (
     <>
       <StickyHeader onCheckout={openCheckout} />
-      <Ticker />
       <Hero onCheckout={openCheckout} />
       <Problem onCheckout={openCheckout} />
       <Video />
